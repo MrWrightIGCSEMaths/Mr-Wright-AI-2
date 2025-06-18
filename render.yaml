@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mr-wright-ai
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run newapp2.py"
+    plan: free
